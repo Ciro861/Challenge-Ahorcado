@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:ital,wght@1,300&display=swap">-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ahorcado</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/LogoAlura.png" alt="Logo Alura">
+    </header>
+    <main>
+        <section id="index">
+            <button class="iniciar" id="iniciar">Iniciar juego</button>
+            <button id="agregar">Agregar nueva palabra</button>
+        </section>
+        <section id="juego">
+            <canvas></canvas>
+            <button id="volverJuego">Volver</button>
+
+
+        </section>
+        <section id="agregarPalabra">
+            <input type="text" name="agregarPalabra" id="nuevaPalabra" placeholder="Ingresa la palabra" maxlenght="8" value="" onkeyup="this.value=this.value.toUpperCase()">
+            <button id="btnGuardar">Guardar Palabra</button>
+            <button id="volverAgregar">Volver</button>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; Facundo Gil - Para Alura </p>
+    </footer>
+</body>
+<script src="js/funciones.js"></script>
+
+</html>

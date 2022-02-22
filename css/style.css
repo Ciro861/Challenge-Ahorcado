@@ -1,0 +1,29 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+/*header*/
+
+
+/*seccion index*/
+
+
+/*seccion juego*/
+
+#juego {
+    display: none;
+}
+
+canvas {
+    width: 300px;
+    height: 500px;
+}
+
+
+/*seccion agregar Palabra*/
+
+#agregarPalabra {
+    display: none;
+}
